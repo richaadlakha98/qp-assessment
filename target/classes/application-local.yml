@@ -1,0 +1,10 @@
+#spring local configurations
+logging:
+  level:
+    org.springframework.web: DEBUG
+
+#mysql configurations
+DB_HOST : jdbc:mysql://localhost:3306/grocery_app
+DB_USERNAME : root
+DB_PASSWORD :
+

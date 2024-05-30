@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: local
+  application:
+    name: grocery-app
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${DB_HOST}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+
+
+
